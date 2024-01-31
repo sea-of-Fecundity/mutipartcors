@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/join' -i -X POST \
+    -H 'Content-Type: multipart/form-data;charset=UTF-8' \
+    -F 'file=@image.jpg;type=image/jpeg' \
+    -F 'createMember={"memberName":"name","memberId":"id"};type=application/json'
+----

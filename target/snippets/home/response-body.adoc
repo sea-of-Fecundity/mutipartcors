@@ -1,0 +1,4 @@
+[source,json,options="nowrap"]
+----
+{"memberName":"name","memberId":"id","imagePath":"front/member/profile/base.jpeg","_links":{"self":{"href":"http://localhost:8080/join"}}}
+----

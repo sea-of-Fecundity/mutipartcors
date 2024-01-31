@@ -1,0 +1,6 @@
+[source,bash]
+----
+$ http --multipart POST 'http://localhost:8080/join' \
+    'file'@'image.jpg' \
+    'createMember'='{"memberName":"name","memberId":"id"}'
+----
